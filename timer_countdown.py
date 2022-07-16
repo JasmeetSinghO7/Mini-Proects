@@ -27,7 +27,7 @@ secondString.set(s)
 box_size = int(w * 0.10)
 
 # if you want to take user inpt change Label to Entry
-secondTextbox = Label(clockWindow, background="#606060", borderwidth=0, font=("Calibri", box_size, ""),
+secondTextbox = Label(clockWindow, background="#606060", borderwidth=0, font=("Arial", box_size, ""),
                       textvariable=secondString).place(relx=0.5, rely=0.5, anchor=CENTER)
 
 x_c = w / 2
